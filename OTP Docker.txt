@@ -1,0 +1,5 @@
+sudo apt install docker.io
+
+docker run --rm -v $(pwd):/workspace -w /workspace --platform linux/arm -it arm32v7/debian bash
+
+./OTP_Process
